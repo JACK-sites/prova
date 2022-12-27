@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed';
+    font-size: 13px;
+}
+
+#card {
+    padding: 5% 3%;
+}
+
+.gridItem{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#test1 {
+    background-color: #7541c8;
+    color: white;
+}
+
+#quotation {
+    top: -20px;
+    right: 4px;
+    position: absolute;
+    width: 90px;
+    height: 87.5px;
+}
+
+
+#parteSopra {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    position: relative;
+
+}
+
+
+
+#parteSotto h4 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    position: relative;
+}
+
+#parteSotto p {
+    opacity: 0.7;
+}
+
+.ver {
+    opacity: 0.5;
+    font-size: 0.7rem;
+}
+
+
+#parteSopra .img {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    width: 27px;
+    height: 27px;
+}
+
+#nomi {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#test2 {
+    background-color:#48556a;
+    color: white;
+}
+
+#test3 {
+    background-color: #ffffff;
+    color: #48556a;
+}
+
+#test4 {
+    background-color: #19212e;
+    color: white;
+    
+}
+
+#test5 {
+    background-color: #ffffff;
+    color: #48556a;
+}
+
+#parteSopra .img4 {
+    border: 1px solid#7541c8;
+}
+
+#test4 h4 {
+    opacity: 0.9;
+}
+
+
+
+
+@media (min-width: 576px) {
+    
+    #card {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    #test5 {
+        flex-basis: 25%;
+    }
+
+    #mainLeft {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 75%;
+
+    }
+
+    #mainLeft .gridItem {
+        margin-right: 15px;
+    }
+
+    #top {
+        display: flex;
+        flex-basis: 50%;
+    }
+
+
+    #bottom {
+        display: flex;
+        flex-basis: 50%;
+    }
+
+    #test1 {
+        flex-basis: 65%;
+    }
+
+    #test2 {
+        flex-basis: 35%;
+    }
+
+    #test3 {
+        flex-basis: 35%;
+    }
+
+    #test4 {
+        flex-basis: 65%;
+    }
+
+    #quotation {
+        width: 80px;
+        height: 80px;
+        right: 50px;
+    }
+
+    
+
+
+
+    
+}
